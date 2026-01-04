@@ -262,6 +262,17 @@ useEffect(() => {
         confidence: "High",
       });
 
+      const { 
+        data: { user },
+      } = await supabase.auth.getUser();
+      if (user) {
+         await supabase.from("predictions").insert({
+         user_id:user.id,
+         input: formData,
+         predicted_price: data.predicted_price,
+         });
+      }
+      
       toast({
         title: "Prediction Complete",
         description: "Your property valuation is ready!",
