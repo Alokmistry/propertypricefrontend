@@ -1,7 +1,9 @@
 # PropValueAI – Property Price Prediction
 
-PropValueAI is an AI-powered web application that predicts real estate prices
-based on property details such as location, size, and amenities.
+PropValueAI is a web-based application that provides AI-powered property price predictions for Indian real estate.  
+This repository contains the **frontend** of the application, built with React and integrated with Supabase authentication and a FastAPI backend.
+
+The goal of this project is to offer users a simple, fast, and accurate way to estimate property prices based on real-world inputs.
 
 ## Features
 - AI-based price prediction
@@ -13,7 +15,10 @@ based on property details such as location, size, and amenities.
 - Frontend: React, TypeScript, Tailwind CSS
 - Backend: FastAPI, Scikit-learn
 - Auth & DB: Supabase
-- Deployment: (add later)
+- Deployment: Vercel
+
+## Live Application 
+https://propertypricefrontend.vercel.app
 
 ## Author
 Alok Mistry
