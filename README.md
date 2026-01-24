@@ -17,8 +17,5 @@ The goal of this project is to offer users a simple, fast, and accurate way to e
 - Auth & DB: Supabase
 - Deployment: Vercel
 
-## Live Application 
-https://propertypricefrontend.vercel.app
-
 ## Author
 Alok Mistry
